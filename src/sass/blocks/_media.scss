@@ -12,6 +12,12 @@
         &__nav {
             display: none;
         }
+        &__items {
+            justify-content: center;
+        }
+        &__item {
+            margin-bottom: 20px;
+        }
     }
 }
 
