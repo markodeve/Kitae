@@ -14,19 +14,45 @@
         list-style-type: none;
         li {
             font-size: 15px;
+            position: relative;
             margin-right: 15px;
             font-weight: 200;
             padding-left: 15px;
             border-left: 1px dashed #fff;
+            
             &:nth-child(1) {
                 border-left: none;
             }
+            &:after {
+                content: "";
+                height: 2px;
+                width: 0;
+                background-color: $color;
+                position: absolute;
+                bottom: -5px;
+                left: 8px;
+                transition: all 0.2s;
+            } 
+            &:hover {
+                &:after {
+                    content: "";
+                    height: 2px;
+                    width: 100%;
+                    background-color: $color;
+                    position: absolute;
+                    bottom: -5px;
+                    left: 8px;
+                    
+                } 
+            }
+            
             a {
                 text-decoration: none;
                 color: #fff;
-                &:hover {
-                    border-bottom: 2px solid $color;
-                }
+                // &:hover {
+                //     border-bottom: 2px solid $color;
+                // }
+                
             }
         }
     }

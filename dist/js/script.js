@@ -9,14 +9,12 @@ line.addEventListener('click', function(){
     
 });
 
-xclose.addEventListener('click', function(){
-    overlay.classList.toggle('active')
-    menu.classList.toggle('menu-active')
+
+
+xclose&&overlay.addEventListener('click', function(){
+    overlay.classList.remove('active')
+    menu.classList.remove('menu-active')
 });
 
-overlay.addEventListener('click', function(){
-    overlay.classList.toggle('active')
-    menu.classList.toggle('menu-active')
-});
 
 
