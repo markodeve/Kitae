@@ -14,4 +14,9 @@ xclose.addEventListener('click', function(){
     menu.classList.toggle('menu-active')
 });
 
+overlay.addEventListener('click', function(){
+    overlay.classList.toggle('active')
+    menu.classList.toggle('menu-active')
+});
+
 
