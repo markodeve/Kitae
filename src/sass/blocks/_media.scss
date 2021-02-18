@@ -2,6 +2,7 @@
     .deli {
         display: none;
     }
+    
 }
 
 @media (max-width: 1200px) {
@@ -19,6 +20,13 @@
             margin-bottom: 20px;
         }
     }
+    .benefits__mushroom {
+        justify-content: center;
+        grid-template-columns: 500px;
+    }
+    .benefits__item {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 992px) {
@@ -30,7 +38,7 @@
         width: 100%;
     }
     .header__items {
-        justify-content: center;
+        justify-content: space-evenly;
         flex-wrap: wrap;
         .header__item {
             margin-top: 15px;
@@ -43,11 +51,19 @@
 }
 
 @media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+    
     .header__top {
         flex-direction: column;
         height: 300px;
     }
     .header__title {
         margin-top: 5px;
+    }
+    .benefits__mushroom {
+        justify-content: center;
+        grid-template-columns: 350px;
     }
 }
