@@ -2,6 +2,7 @@
     .deli {
         display: none;
     }
+
     
 }
 
@@ -26,6 +27,12 @@
     }
     .benefits__item {
         justify-content: center;
+    }
+    .work__super {
+        justify-content: space-around;
+    }
+    .work__item {
+        margin-top: 20px;
     }
 }
 

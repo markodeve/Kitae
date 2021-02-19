@@ -1,0 +1,36 @@
+.work {
+    min-height: 620px;
+    padding: 50px 0;
+    &__title {
+        text-align: center;
+        font-size: 26px;
+    }
+    &__lines {
+        width: 150px;
+        height: 2px;
+        margin: 0 auto;
+        background-color: $color;
+    }
+    &__subtitle {
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__super {
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 360px;
+        &-title {
+            color: $color;
+            text-align: center;
+            margin-top: 15px;
+        }
+        &-text {
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+}
