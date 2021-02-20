@@ -1,0 +1,117 @@
+.price {
+    min-height: 950px;
+    padding: 60px 0;
+    &__heading {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    &__subtitle {
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__items {
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 265px;
+        text-align: center;
+        border: 1px solid lightgrey;
+        padding: 2px 2px 25px 2px;
+        
+        &-title {
+            margin-top: 15px;
+            text-transform: uppercase;
+        }
+        &-cost {
+            margin-top: 10px;
+            font-size: 20px;
+            color: $color;
+        }
+        &-text {
+            margin-top: 25px;
+            font-size: 15px;
+            width: 200px;
+            margin: 25px auto 0 auto;
+        }
+        &-btn {
+           margin-top: 30px;
+        }
+    }
+    &__bg {
+        background-color: #25333c;
+        color: #fff;
+        min-height: 50px;
+        padding-top: 12px;
+    }
+   &__img {
+       margin-top: 15px;
+       width: 50px;
+       height: 50px;
+   }
+   &__subheader {
+       text-align: center;
+       font-size: 30px;
+       margin-top: 50px;
+   }
+   &__form {
+       min-height: 200px;
+       border: 1px solid rgb(196, 196, 196);
+       margin-top: 80px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: relative;
+       &-img {
+           
+           position: absolute;
+           width: 100px;
+           height: 100px;
+           background-color: #fff;
+           border-radius: 100%;
+           top: -50px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           
+       }
+       &-border {
+           border: 2px solid $color;
+           width: 90px;
+           height: 90px;
+           border-radius: 100%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           img {
+               display: block;
+           }
+           
+       }
+   }
+   &__inputs {
+       display: flex;
+       justify-content: space-evenly;
+        width: 900px;
+       input {
+           height: 45px;
+           display: block;
+           border-radius: 100px;
+           width: 280px;
+           font-size: 15px;
+           padding: 0 25px;
+           border: 2px solid gray;
+           
+       }
+   }
+}
+
+.white__button {
+    position: absolute;
+    align-self: flex-end;
+    transform: translateY(22px);
+    background-color: #fff;
+    
+}

@@ -34,6 +34,14 @@
     .work__item {
         margin-top: 20px;
     }
+    .price__items {
+        width: 600px;
+        justify-content: space-around;
+        margin: 0px auto 0 auto;
+    }
+    .price__item {
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -51,10 +59,21 @@
             margin-top: 15px;
         }
     }
+    .price__inputs {
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+        input {
+            margin-top: 15px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
-
+    .price__items {
+        width: 300px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -72,5 +91,8 @@
     .benefits__mushroom {
         justify-content: center;
         grid-template-columns: 350px;
+    }
+    .price__items {
+        width: 250px;
     }
 }

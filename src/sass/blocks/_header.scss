@@ -105,6 +105,13 @@
     &__item {
         width: 250px;
         text-align: center;
+        img {
+            height: 60px;
+        }
+        align-self: stretch;
+        .fix_scale_img {
+            transform: scale(.8);
+        }
 
     }
 
