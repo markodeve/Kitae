@@ -42,6 +42,14 @@
     .price__item {
         margin-top: 30px;
     }
+    .scheme__flex1, .scheme__flex2 {
+        justify-content: center;
+    }
+    
+    .scheme__item {
+        width: 445px;
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -68,12 +76,16 @@
             margin-top: 15px;
         }
     }
+    .scheme__flex2 {
+        width: 600px;
+    }
 }
 
 @media (max-width: 768px) {
     .price__items {
         width: 300px;
     }
+    
 }
 
 @media (max-width: 576px) {
@@ -95,4 +107,13 @@
     .price__items {
         width: 250px;
     }
+    .price__inputs {
+        input {
+            width: 200px;
+        }
+    }
+    .scheme__flex2 {
+        width: 300px;
+    }
+    
 }
