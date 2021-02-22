@@ -1,0 +1,49 @@
+.question {
+    min-height: 430px;
+    background: url(../../img/questions_bg.png) center center / cover;
+    padding: 60px 0 75px 0;
+    &__wrapper {
+        width: 890px;
+        min-height: 290px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, .7);
+        padding-bottom: 1px;
+    }
+    &__darl {
+        background-color: #25333c;
+        color: #fff;
+        padding: 18px 0;
+        text-align: center;
+    }
+    &__title {
+        font-size: 19px;
+    }
+    &__subtitle {
+        font-size: 12px;
+    }
+    &__form {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 810px;
+        margin: 17px auto;
+        gap: 7px;
+        font-size: 12px;
+        textarea {
+            grid-column: 1/4;
+            border-radius: 10px;
+            border: 1px solid gray;
+            min-height: 70px;
+            padding: 15px 25px;
+        }
+        input {
+            border-radius: 100px;
+            border: 1px solid gray;
+            height: 45px;
+            padding: 15px 25px;
+        }
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+}

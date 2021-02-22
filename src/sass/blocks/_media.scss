@@ -107,11 +107,27 @@
     .scheme__flex2 {
         width: 600px;
     }
+    .question__wrapper {
+        width: 100%;
+
+    }
+    .question__form {
+        width: 95%;
+        
+    }
 }
 
 @media (max-width: 768px) {
     .price__items {
         width: 300px;
+    }
+    .question {
+        .question__form {
+            grid-template-columns: 1fr;
+            textarea {
+                grid-column: unset;
+            }
+        }
     }
     
 }
