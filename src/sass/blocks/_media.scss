@@ -115,6 +115,26 @@
         width: 95%;
         
     }
+    .footer {
+        .footer__top {
+            flex-direction: column;
+            justify-content: space-between;
+            height: 250px;
+        }
+        .footer__policy {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 150px;
+        }
+        .footer__confidance {
+            text-align: center;
+        }
+        .footer__logo2 {
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+    }
 }
 
 @media (max-width: 768px) {
