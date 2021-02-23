@@ -8,7 +8,7 @@
     <meta name="title" content="Мое портфолио">
     <meta name="description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
 
-        <!-- Open Graph / Facebook -->
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://metatags.io/">
     <meta property="og:title" content="Meta Tags — Preview, Edit and Generate">
@@ -48,42 +48,41 @@
         <div class="menu">
             <div class="close">X</div>
             <ul class='header__menu'>
-                <li><a href="#">Advantages</a></li>
-                <li><a href="#">Our work</a></li>
-                <li><a href="#">Prices</a></li>
-                <li><a href="#">Scheme of work</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a class="popup" href="#benefits">Advantages</a></li>
+                <li><a class="popup" href="#work">Our work</a></li>
+                <li><a class="popup" href="#price">Prices</a></li>
+                <li><a class="popup" href="#scheme">Scheme of work</a></li>
+                <li><a class="popup" href="#reviews">Reviews</a></li>
+                <li><a class="popup" href="#kvaha">Contacts</a></li>
             </ul>
         </div>
     </div>
-    <header class="header">
+    <header id="up" class="header">
         <div class="container">
             <div class="deli">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
-            
             <div class="header__top">
                 <div class="header__logo">
                     <img class="header__logo" src="img/logo.png" alt="logo">
                 </div>
                 <nav class="header__nav">
                     <ul class='header__list'>
-                        <li><a href="#">Advantages</a></li>
-                        <li><a href="#">Our work</a></li>
-                        <li><a href="#">Prices</a></li>
-                        <li><a href="#">Scheme of work</a></li>
-                        <li><a href="#">Reviews</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#benefits">Advantages</a></li>
+                        <li><a href="#work">Our work</a></li>
+                        <li><a href="#price">Prices</a></li>
+                        <li><a href="#scheme">Scheme of work</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#kvaha">Contacts</a></li>
                     </ul>
                 </nav>
                 <div class="header__contacts">
                     <div class="header__info">Have questions</div>
                     <a href="tel:+0000000000">+00 000 00 000</a>
                 </div>
-                <button class="btn header__btn">Call me</button>
+                <button data-modal="head" class="btn header__btn">Call me</button>
             </div>
             <div class="header__title">China oopt full cycle logistics from China to US</div>
             <h1 class="header__heading">Cargo delivery from China</h1>
@@ -120,10 +119,10 @@
                 </div>
             </div>
         </div>
-        <button class="btn header__button">Receive count</button>
+        <button data-modal="head" class="btn header__button">Receive count</button>
     </div>
     </header>
-    <section class="benefits">
+    <section id="benefits" class="benefits">
        <div class="container">
         <h2 class="benefits__title">Benefits of work with us</h2>
         <div class="benefits__mushroom">
@@ -170,7 +169,7 @@
         </div>
        </div>
     </section>
-    <section class="work">
+    <section id="work" class="work">
         <div class="container">
             <h2 class="work__title">Our work is more then just delivery</h2>
             <div class="work__lines"></div>
@@ -194,14 +193,14 @@
             </div>
         </div>
     </section>
-    <section class="agent">
+    <section id="agent" class="agent">
         <div class="container">
             <div class="agent__icon"><img src="img/agent_icon.png" alt=""></div>
             <div class="agent__title">Agent in China</div>
             <div class="agent__text">The Russian-speaking representatives of the company will easily find exactly the product that will meet your requests both in quality and in price.</div>
         </div>
     </section>
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <h2 class="price__heading">Prices of any kind of delivery</h2>
             <div class="work__lines"></div>
@@ -213,7 +212,7 @@
                     <div class="price__item-title">Shipping in 35-50 days</div>
                     <div class="price__item-cost">From 0.3$ for 1kg</div>
                     <div class="price__item-text">Sea shipping of cargo from China to the US in 35 days with the passage of customs</div>
-                    <button class="btn price__item-btn">More info</button>
+                    <button data-modal="head" class="btn price__item-btn">More info</button>
                 </div>
                 <div class="price__item">
                     <div class="price__bg">Shipping by sea</div>
@@ -221,7 +220,7 @@
                     <div class="price__item-title">Shipping in 15-28 days</div>
                     <div class="price__item-cost">From 1$ for 1kg</div>
                     <div class="price__item-text">Railway cargo delivery from China to the US from 2 weeks with the passage of customs </div>
-                    <button class="btn price__item-btn">More info</button>
+                    <button data-modal="head" class="btn price__item-btn">More info</button>
                 </div>
                 <div class="price__item">
                     <div class="price__bg">Shipping by sea</div>
@@ -229,7 +228,7 @@
                     <div class="price__item-title">Shipping in 12-20 days</div>
                     <div class="price__item-cost">From 1$ for 1kg</div>
                     <div class="price__item-text">Cargo trucking from China to the US from 2 weeks with the passage of customs</div>
-                    <button class="btn price__item-btn">More info</button>
+                    <button data-modal="head" class="btn price__item-btn">More info</button>
                 </div>
                 <div class="price__item">
                     <div class="price__bg">Shipping by sea</div>
@@ -237,7 +236,7 @@
                     <div class="price__item-title">Shipping in 1-12 days</div>
                     <div class="price__item-cost">From 0.3$ for 1kg</div>
                     <div class="price__item-text">Air transportation of cargo from China to the US from 2 weeks with the passage of customs</div>
-                    <button class="btn price__item-btn">More info</button>
+                    <button data-modal="head" class="btn price__item-btn">More info</button>
                 </div>
             </div>
             <h3 class="price__subheader">Get a free consultation</h3>
@@ -253,12 +252,12 @@
                     <input name="name" type="email" placeholder="Your email...">
                 </form>
                 <div class="white__button">
-                    <button class="button btn">Send request</button>
+                    <button data-modal="head" class="button btn">Send request</button>
                 </div>
             </div>
         </div>
     </section>
-    <section class="managers">
+    <section class="managers" id="managers">
         <div class="container">
             <div class="managers__icon">
                 <img src="img/managers.png" alt="managers">
@@ -270,7 +269,7 @@
             </div>
         </div>
     </section>
-    <section class="scheme">
+    <section class="scheme" id="scheme">
         <div class="container">
             <h3 class="scheme__title">The scheme of work with us</h3>
             
@@ -315,7 +314,7 @@
                 </div>
         </div>
     </section>
-    <section class="reviews">
+    <section class="reviews" id="reviews">
         <div class="container">
             <h2 class="reviews__title">Our clients reviews</h2>
             <div class="work__lines"></div>
@@ -348,7 +347,7 @@
         </div>
     </div>
     </section>
-    <section class="question">
+    <section class="question" id="kvaha">
         <div class="container">
             <div class="question__wrapper">
                 <div class="question__darl">
@@ -361,7 +360,7 @@
                     <input type="email" placeholder="Your Email:">
                     <textarea name="text" id="" placeholder="Message"></textarea>
                 </div>
-                <button class="btn question__btn">Send request</button>
+                <button data-modal="head" class="btn question__btn">Send request</button>
             </div>
         </div>
     </section>
@@ -379,7 +378,7 @@
                     <div class="footer__info">Have questions</div>
                     <a href="tel:+0000000000">+00 000 00 000</a>
                 </div>
-                <button class="btn footer__btn">Call me</button>
+                <button data-modal="head" class="btn footer__btn">Call me</button>
             </div>
             <div class="footer__line"></div>
             <div class="footer__policy">
@@ -408,9 +407,33 @@
 
 
 
+<!---MODAL-->
+    <div class="overlay__modal hidden">
+        <div class="modal">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Call us please</div>
+            <div class="modal__des">Fill this please</div>
+           <form action="#" class="modal__inputs">
+                <input required name="name" type="text" placeholder="Your name...">
+                <input required name="phone" type="text" placeholder="Your phone numer...">
+                <input required name="name" type="email" placeholder="Your email...">
+                <button class="btn">Call us</button>
+           </form>
+        </div>
+    </div>
 
 
 
+
+
+<a href="#up"  class="pageup">
+    <img src="img/blueArrow.png" alt="pageUp">
+</a>
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
