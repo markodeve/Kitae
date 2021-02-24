@@ -67,3 +67,5 @@ $('.modal__close').on('click', function(){
 });
 
 
+
+$('input[name=phone]').inputmask({"mask": "+1 (999) 999-9999"});
